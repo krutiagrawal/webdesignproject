@@ -1,0 +1,229 @@
+ @import url('https://fonts.googleapis.com/css2?family=KoHo&family=Titillium+Web:wght@200&display=swap');
+ *{
+	 margin:0;
+	 padding:0;
+	 box-sizing: border-box;
+	 font-family: 'KoHo', sans-serif;
+ }
+ 
+ .navbar{
+	 background:black;
+	 padding: 1rem 8rem;
+	 z-index: 1000;	
+ }
+ .navbar .navbar-brand{
+	 font-size: 1.4rem;
+	 font-weight: 700;
+ }
+ 
+ #navbarSupportedContent > ul > li:nth-child(n) > a{
+	 color: white;
+	 font-size:1.1rem;
+	 padding:0 0.8rem;
+	 
+ }
+ 
+ #navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+ #navbarSupportedContent > ul > li:nth-child(n) > a.active{
+	 color:green;
+ }
+ 
+ #navbarSupportedContent > button{
+	 background:green;
+	 font-weight:600;
+	 padding: 0.4rem 1.4rem;
+	 border-radius:30px;
+ }
+ 
+ #navbarSupportedContent > button:hover{
+	 background:white;
+ }
+ 
+ .mid{
+	 width:100%;
+	 height:100vh;
+	 overflow:hidden;
+	 display: flex;
+	 flex-direction:column;
+	 justify-content:center;
+	 align-content:center;
+	 text-align:center;
+ }
+ 
+ .mid video{
+	 width:100%;
+	 height:100%;
+	 pointer-events: none;
+	 object-fit: cover;
+	 position:absolute;
+	 top:50%;
+	 left:50%;
+	 transform: translate(-50%,-50%);
+ }
+ 
+ .mid .hero{
+	 position:relative;
+	 
+ }
+ 
+ .mid .hero p{
+	 width:55%;
+	 font-size:1.1rem;
+	 letter-spacing:0.2px;
+	 padding-bottom: 1rem;
+ }
+ 
+ .mid .hero a{
+	 background:green;
+	 font-weight:600;
+	 padding: 0.6rem 1.4rem;
+	 border-radius:30px;
+	 text-decoration:none;
+}
+ 
+ .mid .hero a:hover{
+	 background:white;
+ }
+ 
+ .about{
+	 background:#4f4f4f;
+ }
+ 
+ .about .text{
+	 display:flex;
+	 flex-direction:column;
+	 justify-content:flex-start;
+	 align-items:flex-start;
+	 margin:auto;
+ }
+ 
+ .about .text h6{
+	 color: green;
+	 font-weight:800;
+	 font-size: 1rem;
+	 letter-spacing:2px;
+ }
+ 
+ .about .text h2{
+	 color: white;
+	 font-weight:700;
+	 font-size: 2.7rem;
+ }
+ 
+ .about .text p{
+	 color: white;
+	 font-weight:400;
+	 font-size: 1.1rem;
+	 letter-spacing:0.5px;
+ }
+ 
+ .about .text a{
+	 background:green;
+	 font-weight:600;
+	 border-radius:30px;
+	 text-decoration:none;
+	 padding:0.8rem 1.4rem;
+	 color:black;
+ }
+ 
+ .about .text a:hover{
+	 background:white;
+ }
+ 
+ 
+ 
+ 
+ .discovery{
+	 background:white;
+ }
+ 
+ .discovery .text{
+	 display:flex;
+	 flex-direction:column;
+	 justify-content:flex-start;
+	 align-items:flex-start;
+	 margin:auto;
+ }
+ 
+ .discovery .text h6{
+	 color: green;
+	 font-weight:800;
+	 font-size: 1rem;
+	 letter-spacing:2px;
+ }
+ 
+ .discovery .text h2{
+	 color: black;
+	 font-weight:700;
+	 font-size: 2.7rem;
+ }
+ 
+ .about .text p{
+	 color: black;
+	 font-weight:400;
+	 font-size: 1.1rem;
+	 letter-spacing:0.5px;
+ }
+ 
+ .discovery .text a{
+	 background:green;
+	 font-weight:600;
+	 border-radius:30px;
+	 text-decoration:none;
+	 padding:0.8rem 1.4rem;
+	 color:black;
+ }
+ 
+ .discovery .text a:hover{
+	 background:black;
+	 color:white;
+ }
+ 
+ .service{
+	 background:#4f4f4f;
+ }
+ 
+ .service .one{
+	 background:white;
+	 display:flex;
+	 flex-direction:column;
+	 justify-content: center;
+	 align-items: center;
+	 text-align: center;
+	 padding: 2rem 1.5rem;
+	 border-radius: 7px;
+	 
+ }
+ 
+ body > footer{
+	 background:#fff!important;
+ }
+ 
+ @media screen and (max-width: 988px){
+	 .navbar{
+      padding: 1rem;
+ }
+ 
+ #navbarSupportedContent > ul{
+	 padding-left:0.8rem;
+ }
+ 
+ #navbarSupportedContent > ul > li:nth-child(n) > a{
+	 padding: 0.8rem 0;
+ }
+ 
+ .mid .hero h2{
+	 font-size:2.5rem;
+ }
+ 
+ .mid .hero p{
+	 font-size:1rem;
+ }
+ 
+ .mid .hero a{
+	 font-size:0.9rem;
+}
+ 
+}
+ 
+ 
